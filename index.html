@@ -3,9 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Supraja Seshadri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Testing setting up github pages</h1>
+    <nav>
+        <ul>
+            <li><a href="#header">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#awards">Achievements</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <!-- <li><a href="#contact">Contact</a></li> -->
+        </ul>
+    </nav>
+    <header id="header">
+        <div class="container">
+            <div class="profile-content">
+                <div id="socials">
+                    <img src="picture.jpg" class="profile-pic"><br>
+                    <a href="mailto:supraja2809@gmail.com"></a>
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/supraja-seshadri/">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.github.com/suprajasesh">
+                        <i class="fa-brands fa-github"></i>
+                    </a><br><br>
+                    <a href="https://drive.google.com/file/d/1nYY2hQm48XyURSnT2TKtNNCIUNZNZWzF/view?usp=sharing" id="btn">View Resume</a>
+                </div>
+                
+                <div class="bio">
+                    <h1>Supraja Seshadri</h1>
+                    <p class="subtitle">Masters at IIIT Hyderabad</p>
+                    <p class="brief-bio">I’m a tech enthusiast with a passion for tackling complex problems through innovative solutions. Currently pursuing my Master’s at IIIT Hyderabad.
+                         I am deeply involved in the world of software development and machine learning. My journey has led me from a Bachelor’s degree in Information Technology to hands-on projects and internships at companies like Fidelity Investments. 
+                        During my masters, I wish to explore and dive deep into the world of research. <br><br> When I'm not coding, you can find me engrossed in a good book, following the thrilling world of Formula 1, or enjoying the latest TV series or movie.</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="skills" class="section">
+        <div class="container" id="skills-column">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
+                <div class="skills-column">
+                    <h3><i class="fa fa-code"></i> Languages and Frameworks</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JAVA</li>
+                        <li>C/C++</li>
+                    </ul>
+                </div>
+                <div class="skills-column">
+                    <h3><i class="fa fa-tools"></i> Tools and Frameworks</h3>
+                    <ul>
+                        <li>SQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>Scikit-learn</li>
+                        <li>Tensorflow</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="education-column">
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Masters in Computer Science and <br>Information Security</h3>
+                <p><strong>Institution: </strong>IIIT Hyderabad</p>
+                <p><strong>Year of Graduation: </strong>2026</p>
+            </div>
+            <br>
+            <div class="education">
+                <h3>Bachelors in Information Technology</h3>
+                <p><strong>Institution: </strong>SSN College of Engineering</p>
+                <p><strong>Year of Graduation: </strong>2024</p>
+                <p><strong>GPA: </strong>9.3 / 10</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section" id="awards">
+        <div class="container">
+        <h2>Awards and Achievements</h2>
+            <ul class="achievements">
+                <li>Best Poster Award at International Conference on Computer, Communication and Signal Processing 2024 </li>
+                <li>Secured first prize in the regional IEEE YESIST 2023 project competition and qualified for the international finals</li>
+                <li>Grand Finalist of Smart India Hackathon 2022</li>
+                <li>Received merit scholarship for academic excellence in the first and second year of undergraduate studies</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <h3>Tracking the Impact of PM POSHAN Scheme</h3>
+                    <p>Constructed a website and app to track the growth of school students who receive the mid day meal scheme.<br>
+                        Website to track nutrition level of students developed using HTML, CSS, JavaScript, PostgreSQL.<br>
+                        Mobile app to upload picture of everyday meal provided</p>
+                    <!-- <a href="https://github.com/thenithinbalaji/PM-Poshan">Github Repo</a> -->
+                </div>
+                <div class="project-card">
+                    <h3>Custom Implementation of Terminal</h3>
+                    <p>Developed an interactive shell in C++ supporting process creation and management.<br>
+                       Features include handling background/foreground processes, I/O redirection, pipelines, built-in commands (cd, pwd, ls), signal handling, and command history.<br>
+                       Enhanced functionality with process information display (pinfo), file searching, and auto-completion.</p>
+                </div>
+                <div class="project-card">
+                    <h3>LLM Fine-Tuning for Dysarthric Speech Recognition</h3>
+                    <p>Fine tuning LLMs namely Llama2, Mistral, GPT2 and T5 to improve the intelligibility of severe dysarthric speakers.<br>
+                        Performed fine tuning using LoRA, Peft to work on top of existing dysarthric transformer model to help reduce word error rate.<br>
+                        Won best poster award at ICCCSP’24.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Second-Hand Sports Equipment Site</h3>
+                    <p>Developed a website aimed at replicating the functionality of OLX, with a specialized focus on sports equipment.<br>
+                        Designed to streamline the process of buying and selling sports gear, offering users a dedicated space for all sporting needs.<br>
+                        Used HTML, CSS, AngularJS, ExpressJS, MongoDB technologies to build the website.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Supraja Seshadri</p>
+        </div>
+    </footer>
 </body>
 </html>
